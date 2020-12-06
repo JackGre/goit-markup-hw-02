@@ -1,0 +1,104 @@
+/* Основной цвет текс страницы rgba(33, 33, 33, 1) */
+/* Вторичный цвет текс страницы rgba(117, 117, 117, 1) */
+/* Цвет акцента rgba(33, 150, 243, 1) */
+/* Цвет фона header rgba(255, 255, 255, 1) */
+/* Цвет фона преимущества и чем мы занимаемся #E5E5E5 */
+/* Цвет фона наша команда rgba(245, 244, 250, 1) */
+/* Цвет фона футера rgba(47, 48, 58, 1) */
+
+:root {
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --acent-text-color: rgba(33, 150, 243, 1);
+  --title-text-color: rgba(117, 117, 117, 1);
+  --header-background-color: rgba(255, 255, 255, 1);
+}
+
+/* Снятия стиля */
+.list {
+  list-style: none;
+}
+
+.body {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+
+/* Работа с header-style */
+.header-style {
+  background-color: #ffffff;
+}
+/* Работа с logo */
+.logo {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+/* Работа с site-nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-text-color);
+}
+
+/* Работа с site-nav (current- текущая ссылка) */
+.site-nav .link.current {
+  color: var(--acent-text-color);
+}
+/* Работ с блоком авторизация (feedback) */
+.feedback .link {
+  color: var(--title-text-color);
+}
+.feedback .link:hover,
+.feedback .link:focus {
+  color: var(--acent-text-color);
+}
+
+/* Работ с блоком  Hero */
+
+.button {
+  color: var(--header-background-color);
+  background-color: var(--acent-text-color);
+}
+.button .primary {
+  color: var(--header-background-color);
+  background-color: var(--acent-text-color);
+}
+
+/* Общий стиль заголовков section */
+
+.section-title {
+  color: var(--primary-text-color);
+}
+/* Работ с блоком  преимуществом (advantages/feature) */
+.feature .title {
+  color: var(--primary-text-color);
+}
+.feature .paragraph {
+  color: var(--title-text-color);
+}
+/* Работ с блоком Наша команда (section-command) */
+
+.section-command {
+  background-color: rgba(245, 244, 250, 1);
+}
+
+/* Работ с блоком footer */
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+.footer-logo {
+  color: #2196f3;
+}
+.footer-logo-studio {
+  color: #ffffff;
+}
+.address-title {
+  color: rgba(255, 255, 255, 1);
+}
+
+.feedback .title {
+  color: rgba(255, 255, 255, 0.6);
+}
