@@ -4,6 +4,7 @@
 /* Цвет Чем мы занимаемся(work) фона background: #E5E5E5 */
 /* Цвет Наша команда(command) фона background: #F5F4FA */
 /* Цвет Наша команда(command) фона background: #2F303A*/
+/* Цвет фона фильтра кнопок background: #F5F4FA */
 
 :root {
   --main-text-color: #212121;
@@ -16,6 +17,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  background-color: #e5e5e5;
 }
 
 .list {
@@ -113,10 +115,6 @@ p {
 
 /* Преимущества(advantages) */
 
-.advantages {
-  background-color: #ffffff;
-}
-
 .title {
   font-size: 14px;
   line-height: 1.14;
@@ -132,14 +130,14 @@ p {
 
 /* Чем мы занимаемся(work) */
 
-.work {
-  background-color: #ffffff;
-}
-
 /* Наша команда(command) */
 
 .command {
   background-color: #f5f4fa;
+}
+
+.bloc-command {
+  background-color: #ffffff;
 }
 
 .employee {
@@ -190,4 +188,57 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--footer-text-color);
+}
+
+/* ПОРТФОЛИО */
+
+.title-filter {
+  display: none;
+}
+.title-portfolio {
+  display: none;
+
+  /* Фильтр работ */
+}
+.button-filter {
+  background-color: #f5f4fa;
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+.filter-work .button-filter:hover,
+.filter-work .button-filter:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/*Направления работ по фильтру */
+
+.directions-work {
+  background-color: #ffffff;
+}
+
+/* Наименование примеров направлений работ */
+.example {
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--main-text-color);
+}
+
+.directions {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+
+  letter-spacing: 0.03em;
 }
