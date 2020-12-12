@@ -204,6 +204,10 @@ p {
 
 /* ПОРТФОЛИО */
 
+.portfolio {
+  background-color: #e5e5e5;
+}
+
 .title-filter {
   display: none;
 }
