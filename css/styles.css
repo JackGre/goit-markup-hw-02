@@ -16,25 +16,25 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  background-color: #e5e5e5;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
 }
 
-h2 {
-  font-size: 36px;
-  line-height: 1.16;
-
-  letter-spacing: 0.03em;
-
-  color: var(--main-text-color);
+a {
+  text-decoration: none;
 }
 
+h2 {
+  color: var(--main-text-color);
+}
 h3 {
   color: var(--main-text-color);
+  font-size: 14px;
 }
 
 p {
@@ -47,7 +47,6 @@ p {
   background-color: #ffffff;
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -57,8 +56,6 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  letter-spacing: 0.03em;
 
   color: #000000;
 }
@@ -93,18 +90,19 @@ p {
 }
 
 .main-theme {
+  text-align: center;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
-
   color: var(--white-text-color);
 }
 
 .hero-button {
   background-color: var(--accent-text-color);
 
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
 
@@ -115,25 +113,48 @@ p {
 
 /* Преимущества(advantages) */
 
+.advantages {
+  background-color: #e5e5e5;
+}
+
+.advantages-title {
+  display: none;
+}
+
 .title {
-  font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
-  letter-spacing: 0.03em;
 }
 
 .description {
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* Чем мы занимаемся(work) */
+
+.work {
+  background-color: #e5e5e5;
+}
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+}
 
 /* Наша команда(command) */
 
 .command {
   background-color: #f5f4fa;
+}
+
+.c-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
 }
 
 .bloc-command {
@@ -144,16 +165,12 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-
-  letter-spacing: 0.03em;
 }
 
 .specialty {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-
-  letter-spacing: 0.03em;
 }
 /* Footer */
 
@@ -162,11 +179,9 @@ p {
 }
 .log-studio {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
-  letter-spacing: 0.03em;
 
   color: #ffffff;
 }
@@ -177,7 +192,6 @@ p {
   font-size: 14px;
   line-height: 1.17;
 
-  letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
 
@@ -185,9 +199,6 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
-
-  letter-spacing: 0.03em;
-
   color: var(--footer-text-color);
 }
 
@@ -204,13 +215,11 @@ p {
 .button-filter {
   background-color: #f5f4fa;
 
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-
   letter-spacing: 0.03em;
-
   color: var(--main-text-color);
 }
 
@@ -230,16 +239,13 @@ p {
 .example {
   font-size: 18px;
   line-height: 2;
-
+  font-weight: 700;
   letter-spacing: 0.06em;
 
   color: var(--main-text-color);
 }
 
 .directions {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-
-  letter-spacing: 0.03em;
 }
