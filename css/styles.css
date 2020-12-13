@@ -49,7 +49,6 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
   color: var(--logstudio-color);
 }
 .logo-web {
@@ -68,23 +67,23 @@ a {
   color: var(--accent-text-color);
 }
 
-.ct-link {
+.contact-link {
   color: var(--secondary-text-color);
 }
-.contact .ct-link:focus,
-.contact .ct-link:hover {
+.contact .contact-link:focus,
+.contact .contact-link:hover {
   color: var(--accent-text-color);
 }
 
 /* Hero */
 
-.section-hero {
+.section-hero,
+.footer {
   background-color: var(--background-footer-hero);
 }
 
 .main-theme {
   text-align: center;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -98,15 +97,12 @@ a {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
-
   letter-spacing: 0.06em;
-
   color: var(--white-text-color);
 }
 
 /* Преимущества(advantages) */
 
-}
 .advantages-title {
   display: none;
 }
@@ -124,29 +120,17 @@ a {
 
 /* Чем мы занимаемся(work) */
 
-
-}
-
-.work-title {
+.work-title,
+.command-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
-  text-align: center;
   color: var(--main-text-color);
 }
 
 /* Наша команда(command) */
 .command {
   background-color: var(--bg-command-color);
-}
-
-.c-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.67;
-  text-align: center;
-  color: var(--main-text-color);
 }
 
 .bloc-command {
@@ -168,36 +152,27 @@ a {
 }
 /* Footer */
 
-.footer {
-  background-color: var(--background-footer-hero);
-}
 .log-studio {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-
   color: var(--white-text-color);
 }
 
 .address {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.17;
-
   color: var(--white-text-color);
 }
 
-.ct-footer {
-  font-weight: 400;
-  font-size: 14px;
+.mail-tel {
   line-height: 1.17;
   color: var(--footer-text-color);
 }
 
-.ct-footer:hover,
-.ct-footer:focus {
+.mail-tel:hover,
+.mail-tel:focus {
   color: var(--accent-text-color);
 }
 
@@ -211,9 +186,6 @@ a {
 }
 
 /* Фильтр работ */
-
-
-
 
 .button-filter {
   background-color: var(--bg-command-color);
@@ -239,9 +211,7 @@ a {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
-
   color: var(--main-text-color);
 }
 
