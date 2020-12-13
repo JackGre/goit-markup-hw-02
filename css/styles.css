@@ -22,6 +22,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
+
+  background-color: var(--white-text-color);
 }
 
 .list {
@@ -103,8 +105,7 @@ a {
 }
 
 /* Преимущества(advantages) */
-.advantages {
-  background-color: var(--white-text-color);
+
 }
 .advantages-title {
   display: none;
@@ -123,8 +124,7 @@ a {
 
 /* Чем мы занимаемся(work) */
 
-.work {
-  background-color: var(--white-text-color);
+
 }
 
 .work-title {
@@ -212,9 +212,8 @@ a {
 
 /* Фильтр работ */
 
-.filter {
-  background-color: var(--white-text-color);
-}
+
+
 
 .button-filter {
   background-color: var(--bg-command-color);
