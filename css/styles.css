@@ -12,6 +12,9 @@
   --accent-text-color: #2196f3;
   --white-text-color: #ffffff;
   --footer-text-color: rgba(255, 255, 255, 0.6);
+  --logstudio-color: #000000;
+  --background-footer-hero: #2f303a;
+  --bg-command-color: #f5f4fa;
 }
 
 body {
@@ -29,22 +32,10 @@ a {
   text-decoration: none;
 }
 
-h2 {
-  color: var(--main-text-color);
-}
-h3 {
-  color: var(--main-text-color);
-  font-size: 14px;
-}
-
-p {
-  color: var(--secondary-text-color);
-}
-
 /* Header */
 
 .header {
-  background-color: #ffffff;
+  background-color: var(--white-text-color);
 
   font-weight: 500;
   line-height: 1.14;
@@ -57,10 +48,10 @@ p {
   font-size: 26px;
   line-height: 1.19;
 
-  color: #000000;
+  color: var(--logstudio-color);
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
 
 .nav-link {
@@ -86,7 +77,7 @@ p {
 /* Hero */
 
 .section-hero {
-  background-color: #2f303a;
+  background-color: var(--background-footer-hero);
 }
 
 .main-theme {
@@ -112,11 +103,9 @@ p {
 }
 
 /* Преимущества(advantages) */
-
 .advantages {
-  background-color: #e5e5e5;
+  background-color: var(--white-text-color);
 }
-
 .advantages-title {
   display: none;
 }
@@ -124,16 +113,18 @@ p {
 .title {
   font-weight: 700;
   line-height: 1.14;
+  color: var(--main-text-color);
 }
 
 .description {
   line-height: 1.71;
+  color: var(--secondary-text-color);
 }
 
 /* Чем мы занимаемся(work) */
 
 .work {
-  background-color: #e5e5e5;
+  background-color: var(--white-text-color);
 }
 
 .work-title {
@@ -141,12 +132,12 @@ p {
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
+  color: var(--main-text-color);
 }
 
 /* Наша команда(command) */
-
 .command {
-  background-color: #f5f4fa;
+  background-color: var(--bg-command-color);
 }
 
 .c-title {
@@ -155,27 +146,30 @@ p {
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
+  color: var(--main-text-color);
 }
 
 .bloc-command {
-  background-color: #ffffff;
+  background-color: var(--white-text-color);
 }
 
 .employee {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  color: var(--main-text-color);
 }
 
 .specialty {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  color: var(--secondary-text-color);
 }
 /* Footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-footer-hero);
 }
 .log-studio {
   font-family: Raleway;
@@ -183,7 +177,7 @@ p {
   font-size: 26px;
   line-height: 1.19;
 
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 
 .address {
@@ -202,22 +196,28 @@ p {
   color: var(--footer-text-color);
 }
 
-/* ПОРТФОЛИО */
-
-.portfolio {
-  background-color: #e5e5e5;
+.ct-footer:hover,
+.ct-footer:focus {
+  color: var(--accent-text-color);
 }
+
+/* ПОРТФОЛИО */
 
 .title-filter {
   display: none;
 }
 .title-portfolio {
   display: none;
-
-  /* Фильтр работ */
 }
+
+/* Фильтр работ */
+
+.filter {
+  background-color: var(--white-text-color);
+}
+
 .button-filter {
-  background-color: #f5f4fa;
+  background-color: var(--bg-command-color);
 
   font-family: inherit;
   font-weight: 500;
@@ -229,21 +229,18 @@ p {
 
 .filter-work .button-filter:hover,
 .filter-work .button-filter:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-text-color);
+  color: var(--white-text-color);
 }
 
 /*Направления работ по фильтру */
 
-.directions-work {
-  background-color: #ffffff;
-}
-
 /* Наименование примеров направлений работ */
 .example {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  font-weight: 700;
+
   letter-spacing: 0.06em;
 
   color: var(--main-text-color);
@@ -252,4 +249,5 @@ p {
 .directions {
   font-size: 16px;
   line-height: 1.875;
+  color: var(--secondary-text-color);
 }
